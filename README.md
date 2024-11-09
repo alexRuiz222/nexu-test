@@ -1,6 +1,6 @@
-<img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRuYoubdEtrE9C4RHowyZVbg8_xoFwLzAvnXcftUqWnm2PzbbC5l3Gv6W93B2_w-FesAqw&usqp=CAU)" width="200" height="200" />
+<div style="display: flex; justify-content: center; align-items: center; flex-wrap: wrap;"> <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRuYoubdEtrE9C4RHowyZVbg8_xoFwLzAvnXcftUqWnm2PzbbC5l3Gv6W93B2_w-FesAqw&usqp=CAU)" width="200" height="200" />
 <img src="https://docs.nestjs.com/assets/logo-small-gradient.svg" width="200" height="200" />
-<img src="https://velog.velcdn.com/images/this_summer/post/8491073d-2b96-4097-8115-efadbae4adbd/image.png" width="200" height="200" />
+<img src="https://velog.velcdn.com/images/this_summer/post/8491073d-2b96-4097-8115-efadbae4adbd/image.png" width="200" height="200" /></div>
 
 # Nexu Project
 
