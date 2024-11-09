@@ -161,7 +161,7 @@ Here are some of the available scripts you can run from the terminal:
   pnpm run build
   ```
 
-- **Run database migrations**:
+- **Run database migrations (still in progress)**:
 
   ```bash
   npm run migration:run
@@ -197,7 +197,7 @@ Here are some of the available scripts you can run from the terminal:
   pnpm run test
   ```
 
-- **Run tests in watch mode**:
+- **Run tests in watch mode (still in progress)**:
 
   ```bash
   npm run test:watch
