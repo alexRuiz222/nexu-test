@@ -20,7 +20,6 @@ export class MainSeeder implements Seeder {
     const brandsData = Array.from(
       new Set(data.map((brand) => brand.brand_name)),
     );
-    console.log(brandsData);
 
     const brandRepo = dataSource.getRepository(BrandEntity);
     console.log('Seeding brands');

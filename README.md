@@ -6,6 +6,10 @@
 
 This is a **NestJS** project built with **TypeORM** and a **PostgreSQL** database. Below you'll find instructions on how to set up the project and configure the necessary environment variables.
 
+## Demo
+
+You can see a demo of the project running [here](https://nexu-test-production.up.railway.app/brand).
+
 ## Prerequisites
 
 Before you begin, ensure you have the following tools installed on your machine:
@@ -59,6 +63,7 @@ DB_PORT=5432
 DB_USERNAME=your_postgres_user
 DB_PASSWORD=your_postgres_password
 DB_NAME=nexu_db
+DATABASE_URL=postgres://${DB_USERNAME}:${DB_PASSWORD}@${DB_HOST}:${DB_PORT}/${DB_NAME}
 ```
 
 These variables are used to connect your application to the PostgreSQL database. Make sure to replace the values with those corresponding to your own database configuration.
@@ -70,6 +75,7 @@ These variables are used to connect your application to the PostgreSQL database.
 - **DB_USERNAME**: The username to access the database.
 - **DB_PASSWORD**: The password associated with the username.
 - **DB_NAME**: The name of the database that the project will connect to.
+- **DATABASE_URL**: A connection string that combines the above variables into a single string (optional).
 
 ### 4. Start the project
 
