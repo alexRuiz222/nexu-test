@@ -197,7 +197,7 @@ Here are some of the available scripts you can run from the terminal:
   pnpm run test
   ```
 
-- **Run tests in watch mode (still in progress)**:
+- **Run tests in watch mode**:
 
   ```bash
   npm run test:watch
