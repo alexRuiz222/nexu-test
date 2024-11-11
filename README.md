@@ -102,19 +102,19 @@ If you need to run database migrations, use the following command:
 For **npm**:
 
 ```bash
-npm run migration:run
+npm run seed
 ```
 
 For **yarn**:
 
 ```bash
-yarn migration:run
+yarn seed
 ```
 
 For **pnpm**:
 
 ```bash
-pnpm run migration:run
+pnpm run seed
 ```
 
 This will apply any pending migrations to your database.
@@ -161,22 +161,22 @@ Here are some of the available scripts you can run from the terminal:
   pnpm run build
   ```
 
-- **Run database migrations (still in progress)**:
+- **Run database migrations**:
 
   ```bash
-  npm run migration:run
+  npm run seed
   ```
 
   Or for **yarn**:
 
   ```bash
-  yarn migration:run
+  yarn seed
   ```
 
   Or for **pnpm**:
 
   ```bash
-  pnpm run migration:run
+  pnpm run seed
   ```
 
 - **Run tests**:
