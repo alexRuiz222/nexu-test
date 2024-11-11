@@ -1,4 +1,4 @@
-import { BrandEntity } from 'src/modules/brands/entities/brand.entity';
+import { BrandEntity } from '../../brands/entities/brand.entity';
 import { Column, Entity, ManyToOne, PrimaryGeneratedColumn } from 'typeorm';
 
 @Entity()
@@ -11,6 +11,9 @@ export class ModelEntity {
   @Column({ default: 0 })
   average_price: number;
 
-  @ManyToOne(() => BrandEntity, (brand) => brand.models, { nullable: false })
+  @ManyToOne(() => BrandEntity, (brand) => brand.models, {
+    nullable: false,
+    cascade: true,
+  })
   brand: BrandEntity;
 }

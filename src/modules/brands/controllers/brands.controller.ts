@@ -12,7 +12,7 @@ import { CreateBrandDto } from '../dtos/create-brand.dto';
 import { BrandsService } from '../services/brands.service';
 import { BrandDto } from '../dtos/brand.dto';
 import { BrandExistsGuard } from '../brand-exists/brand-exists.guard';
-import { CreateModelDto } from 'src/modules/models/dtos/create-model.dto';
+import { CreateModelDto } from '../../models/dtos/create-model.dto';
 
 @Controller('brands')
 export class BrandsController {

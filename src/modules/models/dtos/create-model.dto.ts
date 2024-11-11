@@ -6,7 +6,7 @@ import {
   Length,
   Min,
 } from 'class-validator';
-import { BrandEntity } from 'src/modules/brands/entities/brand.entity';
+import { BrandEntity } from '../../brands/entities/brand.entity';
 
 export class CreateModelDto {
   @IsString()
