@@ -8,7 +8,7 @@ This is a **NestJS** project built with **TypeORM** and a **PostgreSQL** databas
 
 ## Demo
 
-You can see a demo of the project running [here](https://nexu-test-production.up.railway.app/brand).
+You can see a demo of the project running [here](https://nexu-test-production.up.railway.app/brands).
 
 ## Prerequisites
 
